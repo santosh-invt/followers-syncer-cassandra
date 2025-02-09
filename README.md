@@ -51,10 +51,6 @@ xxxxxx         confluentinc/cp-zookeeper  0.0.0.0:2181->2181/tcp   zookeeper
 
 1️⃣ Test Node.js API
 
-Check if the Node.js API is running:
-
-curl http://localhost:3003/api/v1/influencers
-
 
 2️⃣ Connect to Kafka
 

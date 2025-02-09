@@ -8,7 +8,6 @@ const router: Router = express.Router();
 
 
 /**
- * ✅ Handler for `/follower-timeline`
  * Fetches follower sync timeline (Placeholder for future implementation).
  */
 const handleFollowerTimeline = async (req: Request, res: Response): Promise<void> => {
@@ -28,7 +27,6 @@ const handleFollowerTimeline = async (req: Request, res: Response): Promise<void
 };
 
 /**
- * ✅ Handler for `/follower-avg`
  * Updates the influencer's average follower count.
  */
 const handleFollowerAvg = async (req: Request, res: Response): Promise<void> => {
